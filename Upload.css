@@ -1,0 +1,41 @@
+.fileUploader {
+	background: white;
+	width: 500px;
+	height: 200px;
+	position: fixed;
+	border: .0625rem solid #ddd;
+	padding: 20px;
+	box-sizing: border-box;
+	top: 50%;
+	margin-top: -150px;
+	left: 50%;
+	margin-left: -250px;
+	box-shadow: 0 0 15px #aaa;
+	z-index: 998;
+}
+.fileUploader .list-group {
+	margin-bottom: 16px;
+}
+.uploadFileInfo {
+	background: white;
+	width: 400px;
+	height: 200px;
+	position: fixed;
+	border: .0625rem solid #ddd;
+	padding: 20px;
+	box-sizing: border-box;
+	top: 50%;
+	margin-top: -150px;
+	left: 50%;
+	margin-left: -200px;
+	box-shadow: 0 0 15px #aaa;
+	z-index: 999;
+}
+.uploadFileInfo img {
+	float: left;
+	width: 100px;
+}
+.uploadFileInfo .inputContainer {
+	margin-left: 120px;
+	margin-bottom: 16px;
+}

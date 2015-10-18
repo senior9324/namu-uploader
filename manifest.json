@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Namu Uploader",
+  "version": "151018",
+  "description": "나무 이미지 업로더.",
+  "author": "Senior9324",
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "content_scripts": [ {
+    "js": [ "Upload.js" ],
+    "css": [ "Upload.css" ],
+    "matches": [ "https://namu.wiki/*" ]
+  } ],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
